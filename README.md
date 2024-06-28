@@ -1,4 +1,4 @@
-# Heruou
+# Herupu
 
 Herupu is a front-end multi page website. 
 
