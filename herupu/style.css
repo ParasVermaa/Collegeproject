@@ -472,20 +472,20 @@
     }
     
     #sm-banner h4 {
-        color: blueviolet;
+        color: rgb(226, 209, 226);
         font-size: 18px;
         font-weight: 300;
     }
     
     #sm-banner h2 {
-        color: #e0a800;
+        color: #11110f;
         font-size: 24px;
-        font-weight: 800;
+        font-weight: bolder;
         margin: 10px 0;
     }
     
     #sm-banner span {
-        color: #062754;
+        color: #121213;
         font-size: 14px;
         font-weight: 500;
         padding-bottom: 15px;
@@ -719,6 +719,7 @@
     #shophead h2,
     #shophead p {
         color: #cce7d0;
+        justify-content: center;
     }
     
     #pagination {
@@ -1086,9 +1087,10 @@
     /*about page*/
     
     #abouthead {
-        background-image: url(a7a7bd7073b80a8992f0304dc48be6b6.jpg);
+        background-image: url(download.jfif);
         height: 150px;
         text-align: center;
+        width: 100%;
     }
     
     .abouty h2 {
@@ -1152,98 +1154,10 @@
             width: 100%;
         }
     }
-    /*conatct page*/
-    /* #contacthead {
-        background-image: url(gettyimages-143176152-612x612.jpg);
-    }
-    
-    #contactdetails {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    #contactdetails .details {
-        width: 40%;
-    }
-    
-    #conatctdetails .details span,
-    #formdetail form span {
-        font-size: 12px;
-    }
-    
-    #contactdetails .details h2,
-    #formdetail form h2 {
-        font-size: 26px;
-        line-height: 35px;
-        padding: 20px 0;
-    }
-    
-    #conatctdetails .details h3 {
-        font-size: 16px;
-        padding-bottom: 15px;
-    }
-    
-    #conatctdetails .details li {
-        list-style: none;
-        display: flex;
-        padding: 10px 0;
-    }
-    
-    #contactdetails .details li i {
-        font-size: 14px;
-        padding-right: 22px;
-    }
-    
-    #contactdetails .details li p {
-        margin: 0;
-        font-size: 14px;
-    }
-    
-    #contactdetails .details.map {
-        width: 55%;
-        height: 400px;
-    }
-    
-    #contactdetails .details .map iframe {
-        width: 100%;
-        height: 100%;
-    }
-    
-    #formdetail {
-        justify-content: center;
-        border: 1px solid black;
-        margin: 30px;
-    }
-    
-    #formdetail form {
-        width: 65%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    #formdetail form input,
-    #formdetail form textarea {
-        width: 100%;
-        padding: 12px 15px;
-        outline: none;
-        margin-bottom: 20px;
-        border: 1px solid #e2e2;
-    }
-    
-    #formdetail form button {
-        background-color: #062754;
-        color: #ccc;
-        cursor: pointer;
-        width: 50%;
-        outline: none;
-        margin-bottom: 20px;
-        border: 1px solid black;
-    } */
+    /* conatct page*/
     
     #contacthead {
-        background-image: url('gettyimages-143176152-612x612.jpg');
+        background-image: url('circles-background-dark-tones_60389-166.avif');
         background-size: cover;
         background-position: center;
         color: white;
@@ -1254,11 +1168,13 @@
     #contacthead h2 {
         font-size: 48px;
         margin-bottom: 10px;
+        color: white;
     }
     
     #contacthead p {
         font-size: 20px;
         margin-top: 0;
+        color: white;
     }
     
     #contactdetails {
